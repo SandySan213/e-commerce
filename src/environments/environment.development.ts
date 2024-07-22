@@ -3,7 +3,10 @@ export const environment = {
     
     getProducts: () => {
         return environment.apiUrl + '/products';
-    }
+    },
 
+    getCart:  () => {
+        return environment.apiUrl + '/carts';
+    }
 
 };
